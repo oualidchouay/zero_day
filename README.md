@@ -1,28 +1,32 @@
 Setting up your local coding environment
 -----------------------------------------
 
-### Concepts:
+Most of the projects in this program are supposed to be done in a Linux (Ubuntu) environment.
 
-For this project, we expect you to look at this concept:
+For that matter, you will need to set up a similar environment for that purpose. It is for this reason
+that we have the sandboxes but to be able to work locally even when you do not have internet
+access, we highly recommend that you set up your own local coding environment.
 
-[Struggling with the sandbox? Try this: Using Docker & WSL on your local host](https://intranet.alxswe.com/concepts/100039 "Struggling with the sandbox? Try this: Using Docker & WSL on your local host")
+This project is therefore a guide for you to set up the necessary coding environment irrespective
+of the operating system that you are using. Once you have set this up, you can stop using the
+Sandboxes and just use your local environment.
 
 ### Guide to running Ubuntu 20.04 on different operating systems:
 
-Windows You have three options for running Ubuntu on Windows:
+**Windows** You have **three** options for running Ubuntu on Windows:
 
--	WSL: `WSL (Windows Subsystem for Linux)` is a feature that allows you to run Linux distributions natively on Windows.
+-	**WSL**: `WSL (Windows Subsystem for Linux)` is a feature that allows you to run Linux distributions natively on Windows.
 WSL is the easiest option to set up and use, and it provides a good introduction to Ubuntu.
 
--	Vagrant: `Vagrant` is a tool for creating and managing virtual machines. It is a good option if you need to run Ubuntu
+-	**Vagrant**: `Vagrant` is a tool for creating and managing virtual machines. It is a good option if you need to run Ubuntu
 for development or testing purposes, as it allows you to create isolated environments that are easy to replicate and share.
 
--	Docker: `Docker` is a tool for containerizing applications. It is a good option if you need to run Ubuntu for specific tasks, such as running a web server or database. But also remember using docker will need an installation of WSL.
+-	**Docker**: `Docker` is a tool for containerizing applications. It is a good option if you need to run Ubuntu for specific tasks, such as running a web server or database. But also remember using docker will need an installation of WSL.
 
-macOS If you have:
+**macOS** If you have:
 
--	a Mac with an Apple Silicon chip, you can only use Docker to run `Ubuntu`.
--	a Mac with an Intel chip, you can use `Vagrant` or `Docker`.
+-	a Mac with an **Apple Silicon chip**, you can only use Docker to run `Ubuntu`.
+-	a Mac with an **Intel chip**, you can use `Vagrant` or `Docker`.
 
 This project introduces you to all the available options. Go through them and choose the one that works for you.
 
@@ -30,23 +34,26 @@ This project introduces you to all the available options. Go through them and ch
 
 Sandboxes are great, but you can also do your ALX assessments on your local computer - having a virtual machine (VM) is the perfect tool for that.
 
-Let’s dig into Vagrant today!
+Let’s dig into **Vagrant** today!
 
 Also:
 
--	This project can’t be done in Sandboxes - it can be done only in your local computer.
+-	This project **can’t be done in Sandboxes** - it can be done only in your local computer.
+
 
 ### Resources:
 
-Read or watch:
+**Read or watch:**
 
-[Virtual machine](https://intranet.alxswe.com/rltoken/eoV8V_5fgzW_UhJ3PtVyWw "Virtual machine")
+-	[Virtual machine](https://intranet.alxswe.com/rltoken/eoV8V_5fgzW_UhJ3PtVyWw "Virtual machine")
 
-[man uname](https://intranet.alxswe.com/rltoken/Z4MowYniH5YJoZo4jZgIBw "man uname")
+-	[man uname](https://intranet.alxswe.com/rltoken/Z4MowYniH5YJoZo4jZgIBw "man uname")
+
 
 ### Learning Objectives
 
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/g5OVhHRsT0jjsvUI1Y8jgw "explain to anyone"), without the help of Google:
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/g5OVhHRsT0jjsvUI1Y8jgw "explain to anyone"), **without the help of Google**:
+
 
 ### General:
 
@@ -61,14 +68,16 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### Requirements
 
--	General
+**General**
 
-A `README.md` file at the root of the repo, containing a description of the repository
-A `README.md` file, at the root of the folder of this project (i.e. `0x00-vagrant`), describing what this project is about
+-	A `README.md` file at the root of the repo, containing a description of the repository
+-	A `README.md` file, at the root of the folder of this project (i.e. `0x00-vagrant`), describing what this project is about
+
 
 ### More Info
 
 Install git
+-----------
 
 If `git` is not already installed on your terminal:
 
@@ -81,6 +90,7 @@ $ sudo apt-get install git
 ```
 
 Basic usage
+-----------
 
 At the end of this project you should be able to reproduce and understand these command lines:
 
@@ -96,12 +106,16 @@ $ git push origin main
 
 ### Warning
 
-This project can’t be done in Sandboxes - it can be done only in your local computer. Please refer to our concept pages for your operating system.
+This project **can’t be done in Sandboxes** - it can be done only in your local computer. Please refer to our concept pages for your operating system.
+
 
 ### Tasks
 
+**advanced**
+------------
+
+-------------------------------------------------------
 ### 0\. Create and setup your Git and GitHub account
-#advanced
 
 You will need Git for this project, you might have to [install it](https://intranet.alxswe.com/rltoken/7kPsched1VMPOY2bdvZvGQ "install it") on your computer if it’s not done yet.
 
@@ -132,9 +146,12 @@ Repo:
 
 -	GitHub repository: `zero_day`
 -	File: `README.md`
+-------------------------------------------------------
 
+
+
+-------------------------------------------------------
 ### 1\. Hello Ubuntu
-#advanced
 
 Inside the `zero_day` repo, create a new directory called `0x00-vagrant`. Add a `README.md` file to this directory.
 
@@ -147,3 +164,4 @@ Repo:
 -	GitHub repository: `zero_day`
 -	Directory: `0x00-vagrant`
 -	File: `0-hello_ubuntu`
+-------------------------------------------------------
